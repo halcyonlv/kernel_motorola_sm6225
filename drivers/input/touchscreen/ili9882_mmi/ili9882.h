@@ -686,7 +686,7 @@ struct report_info_block {
 #define GESTURE_O					0x69
 #define GESTURE_S					0x6A
 #define GESTURE_Z					0x6B
-#define KEY_GESTURE_POWER				KEY_POWER
+#define KEY_GESTURE_POWER				KEY_WAKEUP
 #define KEY_GESTURE_UP					KEY_UP
 #define KEY_GESTURE_DOWN				KEY_DOWN
 #define KEY_GESTURE_LEFT				KEY_LEFT

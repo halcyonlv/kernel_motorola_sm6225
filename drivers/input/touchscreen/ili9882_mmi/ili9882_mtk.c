@@ -77,7 +77,7 @@ void ili_input_register(void)
 	}
 
 	/* Gesture keys register */
-	input_set_capability(ilits->input, EV_KEY, KEY_POWER);
+	input_set_capability(ilits->input, EV_KEY, KEY_WAKEUP);
 	input_set_capability(ilits->input, EV_KEY, KEY_GESTURE_UP);
 	input_set_capability(ilits->input, EV_KEY, KEY_GESTURE_DOWN);
 	input_set_capability(ilits->input, EV_KEY, KEY_GESTURE_LEFT);
