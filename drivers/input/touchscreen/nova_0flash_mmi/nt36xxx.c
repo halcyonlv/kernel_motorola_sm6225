@@ -1776,7 +1776,7 @@ static void new_touch(int x, int y) {
 	touch_nr++;
 }
 
-static bool detect_doubletap2wake(int x, int y)
+static __maybe_unused bool detect_doubletap2wake(int x, int y)
 {
 	if (touch_nr == 0) {
 		new_touch(x, y);
